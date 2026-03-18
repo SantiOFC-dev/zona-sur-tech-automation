@@ -1,0 +1,25 @@
+Deploy checklist for Zona-Sur-Tech
+Generated: 03/18/2026 00:54:45
+
+App: cms
+Path: C:\Users\Dev Profile\Desktop\Zona-Sur-Tech-Cluster\cms\\CMS
+Domain: cms.zonasurtech.online
+Repo: https://github.com/Santyofc/CMS-server.git
+Status: OK
+
+App: saas
+Path: C:\Users\Dev Profile\Desktop\Zona-Sur-Tech-Cluster\saas\\SaaS-Zona_Sur_Tech
+Domain: zonasurtech.online
+Repo: https://github.com/Santyofc/SaaS-Zona_Sur_Tech.git
+Status: OK
+
+App: facturas
+Path: C:\Users\Dev Profile\Desktop\Zona-Sur-Tech-Cluster\facturas
+Domain: facturas.zonasurtech.online
+Repo: https://github.com/Santyofc/fac-zona-sur-main.git
+Status: OK
+
+--- DNS/Env checklist ---
+SpaceMail: A/CNAME set to AWS endpoints
+Neon/Supabase env secrets configured
+HTTPS cert valid
